@@ -1,5 +1,5 @@
 function getPassowrd(){
-    let chars = "0123456789abcdefigklmnopqrstuvwxyz=)àç_è-(é&²~#{[|^@]}¤/*-+.";
+    let chars = "0123456789abcdefigklmnopqrstuvwxyz=)_-(&²#{[|^@/*+.";
     var passowrdLength = 20;
     let Passowrd = "";
 
@@ -16,7 +16,7 @@ function Copied() {
     copyText.setSelectionRange(0, 99999); /* For mobile devices */
   
     if (copyText.value==""){
-        alert("No Password!");
+        alert('No Password!! Please click "Generate Password"');
     }else{
         navigator.clipboard.writeText(copyText.value);
         alert("Copied Password \n "+ copyText.value);
