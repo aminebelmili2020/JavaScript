@@ -63,7 +63,6 @@ a{
     font-size: 30px;
     margin-bottom: 20px;
     overflow-x: auto;
-    background-color: #fdfdfd;
 }
 .display::-webkit-scrollbar{
     display: block;
