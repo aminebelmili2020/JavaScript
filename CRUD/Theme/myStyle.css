@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap");
+.inputs input {
+  width: 100%;
+  color: #1F1F1F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Readex Pro", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #1F1F1F;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: dashed 1px #d6d6d6;
+  /*background-color: #2b2b2b;*/
+}
+.container header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #EA80FC;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=myStyle.css.map */

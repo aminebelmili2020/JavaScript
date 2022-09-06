@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+@import 'vars',  'inputs';
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $mainFont;
+    color: $mainColorTxt;
+}
+body{
+    background-color: $BGColor;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border: dashed 1px #d6d6d6;
+    /*background-color: #2b2b2b;*/
+    & header{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+}
+
+button{
+    background-color: $mainColor;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
