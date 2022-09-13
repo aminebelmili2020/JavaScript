@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
-@import 'vars',  'inputs';
+@import 'vars';
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +24,17 @@ body{
 button{
     background-color: $mainColor;
     padding: 10px;
+    border: none;
     border-radius: 5px;
     text-transform: uppercase;
+}
+
+@import 'inputs';
+
+.total{
+    padding: 8px 28px;
+    border: dashed 1px #d6d6d6;
+    &::before{
+        content: "Total: ";
+    }
 }

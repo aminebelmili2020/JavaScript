@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap");
-.inputs input {
-  width: 100%;
-  color: #1F1F1F;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +25,35 @@ body {
 button {
   background-color: #EA80FC;
   padding: 10px;
+  border: none;
   border-radius: 5px;
   text-transform: uppercase;
+}
+
+.inputs input {
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #0f0f0f;
+  padding: 10px 15px;
+  margin: 2px 0;
+}
+.inputs input:focus {
+  background-color: #fff;
+  color: #1F1F1F;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 5px 5px #363636;
+}
+.inputs .price input {
+  width: 20%;
+}
+
+.total {
+  padding: 8px 28px;
+  border: dashed 1px #d6d6d6;
+}
+.total::before {
+  content: "Total: ";
 }/*# sourceMappingURL=myStyle.css.map */
