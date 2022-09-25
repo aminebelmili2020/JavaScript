@@ -54,7 +54,7 @@ hr {
 }
 
 input {
-  width: 97%;
+  width: 100%;
   color: #000;
   outline: none;
   border: none;
@@ -77,10 +77,15 @@ input:focus {
 
 .total {
   padding: 8px 28px;
-  border: dashed 1px #d6d6d6;
+  color: #E8493C;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .total::before {
   content: "Total: ";
+}
+.total::after {
+  content: " DA";
 }
 
 table {

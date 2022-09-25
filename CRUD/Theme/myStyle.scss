@@ -58,10 +58,15 @@ hr{
 
 .total{
     padding: 8px 28px;
-    border: dashed 1px #d6d6d6;
+    color: $secColor;
+    font-weight: bold;
+    text-decoration: underline;
 
     &::before{
         content: "Total: ";
+    }
+    &::after{
+        content: " DA";
     }
 }
 
