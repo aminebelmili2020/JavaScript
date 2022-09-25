@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   font-family: "Readex Pro", sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 body {
-  background-color: #1F1F1F;
+  background-color: #efefef;
 }
 
 .container {
   width: 80%;
   margin: auto;
-  border: dashed 1px #d6d6d6;
+  /*border: dashed 1px #d6d6d6;*/
   /*background-color: #2b2b2b;*/
 }
 .container header {
@@ -24,11 +24,12 @@ body {
 
 button {
   width: 100%;
-  background-color: #fff;
-  color: #1F1F1F;
+  min-width: 80px;
+  background-color: #000;
+  color: #efefef;
   font-weight: bold;
   cursor: pointer;
-  padding: 5px;
+  padding: 15px 5px;
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
@@ -48,24 +49,25 @@ button:hover {
 }
 
 input {
-  width: 100%;
-  color: #fff;
+  width: 97%;
+  color: #000;
   outline: none;
   border: none;
-  background-color: #0f0f0f;
+  border-radius: 5px;
+  background-color: #d1d1d1;
   padding: 10px 15px;
   margin: 2px 0;
 }
 input:focus {
-  background-color: #fff;
-  color: #1F1F1F;
-  transform: scale(1.05);
+  background-color: #d1d1d1;
+  transform: scale(1.01, 1.05);
   transition: all 0.5s ease-in-out;
-  box-shadow: 0px 5px 5px #363636;
+  box-shadow: 0px 5px 5px rgba(54, 54, 54, 0.4941176471);
 }
 
 .price input {
   width: 18%;
+  background-color: #d1d1d1;
 }
 
 .total {
@@ -74,4 +76,17 @@ input:focus {
 }
 .total::before {
   content: "Total: ";
+}
+
+table {
+  background-color: #dbdada;
+  width: 100%;
+  text-align: center;
+}
+table th {
+  text-transform: uppercase;
+}
+table th, table td {
+  padding: 5px;
+  background-color: #cccbcb;
 }/*# sourceMappingURL=myStyle.css.map */

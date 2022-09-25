@@ -1,22 +1,24 @@
+
 input{
-    width: 100%;
+    width: 97%;
     color: $mainColorTxt;
     outline: none;
     border: none;
+    border-radius: 5px;
     background-color: $secBGColor;
     padding: 10px 15px;
     margin: 2px 0;
     &:focus{
-        background-color: $mainColorTxt;
-        color: $BGColor;
-        transform: scale(1.05);
+        background-color: $secBGColor;
+        transform: scale(1.01, 1.05);
         transition: all 0.5s ease-in-out;
-        box-shadow: 0px 5px 5px #363636;
+        box-shadow: 0px 5px 5px #3636367e;
         }
     }
     
 .price{
     & input{
         width: 18%;
+        background-color: $secBGColor;
     }
 }

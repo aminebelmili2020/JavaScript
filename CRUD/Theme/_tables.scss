@@ -1,0 +1,13 @@
+table{
+    background-color: #dbdada;
+
+    width: 100%;
+    text-align: center;
+    & th{
+        text-transform: uppercase;
+    }
+    & th,td{
+        padding: 5px;
+        background-color: #cccbcb;
+    }
+}
