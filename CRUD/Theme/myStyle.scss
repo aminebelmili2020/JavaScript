@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: $mainFont;
-    color: $mainColorTxt;
+    color: $mainColor;
 }
 body{
     background-color: $BGColor;
@@ -24,7 +24,7 @@ body{
 button{
     width: 100%;
     min-width: 80px;
-    background-color: $mainColorTxt;
+    background-color: $mainColor;
     color: $BGColor;
     font-weight: bold;
     cursor: pointer;
@@ -38,6 +38,11 @@ button{
     letter-spacing: 1px;
     transition: .5s
     }
+}
+
+hr{
+    margin: 10px 0;
+    border-style: dashed;
 }
 
 .btnSearch{

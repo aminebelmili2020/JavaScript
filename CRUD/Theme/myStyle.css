@@ -40,6 +40,11 @@ button:hover {
   transition: 0.5s;
 }
 
+hr {
+  margin: 10px 0;
+  border-style: dashed;
+}
+
 .btnSearch {
   display: flex;
   justify-content: space-between;
@@ -79,7 +84,6 @@ input:focus {
 }
 
 table {
-  background-color: #dbdada;
   width: 100%;
   text-align: center;
 }
@@ -88,5 +92,4 @@ table th {
 }
 table th, table td {
   padding: 5px;
-  background-color: #cccbcb;
 }/*# sourceMappingURL=myStyle.css.map */
